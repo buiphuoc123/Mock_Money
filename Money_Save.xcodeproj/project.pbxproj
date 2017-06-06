@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3800011EE5B3BF00C967C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3800001EE5B3BF00C967C2 /* RegisterViewController.swift */; };
+		DF3800031EE5C10600C967C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3800021EE5C10600C967C2 /* LoginViewController.swift */; };
 		DFF0EB921EE58D6200A96A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0EB911EE58D6200A96A7E /* AppDelegate.swift */; };
 		DFF0EB941EE58D6200A96A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0EB931EE58D6200A96A7E /* ViewController.swift */; };
 		DFF0EB971EE58D6200A96A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0EB951EE58D6200A96A7E /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF3800001EE5B3BF00C967C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DF3800021EE5C10600C967C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFF0EB8E1EE58D6200A96A7E /* Money_Save.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Money_Save.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF0EB911EE58D6200A96A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF0EB931EE58D6200A96A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF38FFFF1EE5B32C00C967C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF3800001EE5B3BF00C967C2 /* RegisterViewController.swift */,
+				DF3800021EE5C10600C967C2 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		DFF0EB851EE58D6200A96A7E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		DFF0EB901EE58D6200A96A7E /* Money_Save */ = {
 			isa = PBXGroup;
 			children = (
+				DF38FFFF1EE5B32C00C967C2 /* Controller */,
 				DFF0EB911EE58D6200A96A7E /* AppDelegate.swift */,
 				DFF0EB931EE58D6200A96A7E /* ViewController.swift */,
 				DFF0EB951EE58D6200A96A7E /* Main.storyboard */,
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3800031EE5C10600C967C2 /* LoginViewController.swift in Sources */,
+				DF3800011EE5B3BF00C967C2 /* RegisterViewController.swift in Sources */,
 				DFF0EB941EE58D6200A96A7E /* ViewController.swift in Sources */,
 				DFF0EB921EE58D6200A96A7E /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +523,7 @@
 				DFF0EBB81EE58D6400A96A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFF0EBB91EE58D6400A96A7E /* Build configuration list for PBXNativeTarget "Money_SaveTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				DFF0EBBB1EE58D6400A96A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFF0EBBC1EE58D6400A96A7E /* Build configuration list for PBXNativeTarget "Money_SaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				DFF0EBBE1EE58D6400A96A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
